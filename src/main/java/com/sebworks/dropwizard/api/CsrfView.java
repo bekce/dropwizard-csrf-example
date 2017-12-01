@@ -1,6 +1,6 @@
-package com.sebworks.oauthly.api;
+package com.sebworks.dropwizard.api;
 
-import com.sebworks.oauthly.core.CsrfFilter;
+import com.sebworks.dropwizard.core.CsrfFilter;
 import io.dropwizard.jersey.sessions.Flash;
 import lombok.Getter;
 

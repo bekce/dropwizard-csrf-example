@@ -1,9 +1,9 @@
-package com.sebworks.oauthly;
+package com.sebworks.dropwizard;
 
 import com.google.common.collect.ImmutableMap;
 import io.dropwizard.Configuration;
 import com.fasterxml.jackson.annotation.JsonProperty;
-import org.hibernate.validator.constraints.*;
+
 import javax.validation.constraints.*;
 import java.util.Collections;
 import java.util.Map;

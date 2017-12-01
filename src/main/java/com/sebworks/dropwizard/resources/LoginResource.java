@@ -1,7 +1,7 @@
-package com.sebworks.oauthly.resources;
+package com.sebworks.dropwizard.resources;
 
-import com.sebworks.oauthly.api.LoginView;
-import com.sebworks.oauthly.api.ResponseMessage;
+import com.sebworks.dropwizard.api.LoginView;
+import com.sebworks.dropwizard.api.ResponseMessage;
 import io.dropwizard.jersey.sessions.Flash;
 import io.dropwizard.jersey.sessions.Session;
 

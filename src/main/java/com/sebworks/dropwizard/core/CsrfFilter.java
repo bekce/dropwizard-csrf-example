@@ -1,4 +1,4 @@
-package com.sebworks.oauthly.core;
+package com.sebworks.dropwizard.core;
 
 import com.google.common.collect.ImmutableList;
 
@@ -10,6 +10,9 @@ import java.io.IOException;
 import java.util.Objects;
 import java.util.UUID;
 
+/**
+ * This filter applies CSRF protection for POST requests, other than ones that use application/json Content-Type.
+ */
 public class CsrfFilter implements Filter {
     public static final String CSRF_TOKEN_KEY = "csrf_token";
     private final ImmutableList EXCLUDED_TYPES = ImmutableList.of("application/json");

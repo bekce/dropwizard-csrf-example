@@ -1,4 +1,4 @@
-package com.sebworks.oauthly.api;
+package com.sebworks.dropwizard.api;
 
 import lombok.*;
 import lombok.experimental.Accessors;

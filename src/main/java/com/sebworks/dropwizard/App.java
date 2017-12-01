@@ -1,9 +1,8 @@
-package com.sebworks.oauthly;
+package com.sebworks.dropwizard;
 
-import com.sebworks.oauthly.core.CsrfFilter;
-import com.sebworks.oauthly.resources.LoginResource;
+import com.sebworks.dropwizard.core.CsrfFilter;
+import com.sebworks.dropwizard.resources.LoginResource;
 import io.dropwizard.Application;
-import io.dropwizard.Configuration;
 import io.dropwizard.assets.AssetsBundle;
 import io.dropwizard.setup.Bootstrap;
 import io.dropwizard.setup.Environment;
@@ -22,7 +21,7 @@ public class App extends Application<Conf> {
 
     @Override
     public String getName() {
-        return "oauthly";
+        return "dropwizard-csrf-example";
     }
 
     @Override
